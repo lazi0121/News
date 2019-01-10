@@ -1,0 +1,24 @@
+<view class='container'>
+  <view class='top'>
+    <view class='searchBox'>
+      <image src='/Imgs/searchIconGray.png'></image>
+      <textarea placeholder='请输入关键词'></textarea>
+    </view>
+    <button class='cancelBtn' bindtap='Back'>取消</button>
+  </view>
+  <view class='list'>
+    <label>搜索热词</label>
+    <view class='hot'>
+      <text class='hotItem'>火箭签约安东尼</text>
+      <text class='hotItem'>山东暴雨预警</text>
+      <text class='hotItem'>黄晓明 股票操纵</text>
+      <text class='hotItem'>韩雪臣被判无期</text>
+      <text class='hotItem'>茅台致歉</text>
+      <text class='hotItem'>阅文收购新丽传媒</text>
+      <text class='hotItem'>哈登对女子动粗</text>
+      <text class='hotItem'>南京楼市调控新政</text>
+      <text class='hotItem'>怪物猎人世界下架</text>
+      <text class='hotItem'>江西彭小峰被捕</text>
+    </view>
+  </view>
+</view>

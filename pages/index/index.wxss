@@ -1,0 +1,125 @@
+page,.container{
+  width:100%;
+  height:100%;
+}
+.container{
+  padding: 0;
+}
+/*=================================头部======================================*/
+.header{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 90rpx;
+  box-sizing: border-box;
+  -webkit-box-sizing:border-box;
+  display: flex;
+  display: -webkit-flex;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.searchBtn{
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -webkit-align-items: center;
+  width: 90rpx;
+  flex-shrink: 0;
+}
+.searchBtn image{
+  width: 43rpx;
+  height: 43rpx;
+}
+
+
+.btnBox{
+  display: flex;
+  display: -webkit-flex;
+  flex-shrink: 0;
+  width: 180rpx;
+  height: 90rpx;
+}
+.btnBox .addBtn{
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -webkit-align-items: center;
+  width:50%;
+  height: 100%;
+}
+.btnBox .addBtn image{
+  width: 43rpx;
+  height: 43rpx;
+}
+.btnBox .myBtn{
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -webkit-align-items: center;
+  width:50%;
+  height: 100%;
+}
+.btnBox .myBtn image{
+  width: 41rpx;
+  height: 44rpx;
+}
+.list{
+  position: relative;
+  overflow: hidden;
+}
+.list label{
+  display: block;
+  width: 10rpx;
+  height: 70rpx;
+  border-radius:100%;
+  position: absolute;
+  top: 10rpx;
+  right: -10rpx;
+  box-shadow: 0rpx 0 20rpx 2rpx rgba(000, 000, 000, .3);
+}
+.scroll-view{
+  white-space: nowrap;
+  width: 480rpx;
+  border-right: 1px solid #e7e7e7;
+}
+.scroll-view-item{
+  display: inline-block;
+  width:95rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  font-size: 28rpx;
+  text-align: center;
+}
+/*================================内容部分====================================*/
+.content{
+  padding-top: 90rpx;
+  box-sizing: border-box;
+  -webkit-box-sizing:border-box;
+  height:100%;
+  width:100%;
+}
+
+.swiper{
+  height: 100%;
+}
+
+.slide-image{
+  height: 100%;
+  width:100%;
+}
+.green{
+  background:lightgreen;
+}
+.red{
+  background:lightpink;
+}
+.blue{
+  background:lightblue;
+}

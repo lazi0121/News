@@ -1,0 +1,93 @@
+<view class='container'>
+  <view>
+    <view class='tagTitle'>
+      <label>我的频道</label>
+      <text>选中不放可以拖拽排序</text>
+    </view>
+    <view class='tagBox'>
+      <view class='tagItem tagItemF'>
+        <text>推荐</text>
+      </view>
+      <view class='tagItem'>
+        <text>视频</text>
+        <image src='/Imgs/closeIcon.png'></image>
+      </view>
+      <view class='tagItem'>
+        <text>热点</text>
+        <image src='/Imgs/closeIcon.png'></image>
+      </view>
+      <view class='tagItem'>
+        <text>本地</text>
+        <image src='/Imgs/closeIcon.png'></image>
+      </view>
+      <view class='tagItem'>
+        <text>科技</text>
+        <image src='/Imgs/closeIcon.png'></image>
+      </view>
+      <view class='tagItem'>
+        <text>游戏</text>
+        <image src='/Imgs/closeIcon.png'></image>
+      </view>
+      <view class='tagItem'>
+        <text>娱乐</text>
+        <image src='/Imgs/closeIcon.png'></image>
+      </view>
+      <view class='tagItem'>
+        <text>社会</text>
+        <image src='/Imgs/closeIcon.png'></image>
+      </view>
+      <view class='tagItem'>
+        <text>汽车</text>
+        <image src='/Imgs/closeIcon.png'></image>
+      </view>
+    </view>
+  </view>
+  <view>
+    <view class='tagTitle'>
+      <label>其他频道</label>
+      <text>点击添加频道</text>
+    </view>
+    <view>
+      <view class='addItem'>
+        <image src='/Imgs/addIcon.png'></image>
+        <text>历史</text>
+      </view>
+      <view class='addItem'>
+        <image src='/Imgs/addIcon.png'></image>
+        <text>健康</text>
+      </view>
+      <view class='addItem'>
+        <image src='/Imgs/addIcon.png'></image>
+        <text>养儿</text>
+      </view>
+      <view class='addItem'>
+        <image src='/Imgs/addIcon.png'></image>
+        <text>房产</text>
+      </view>
+      <view class='addItem'>
+        <image src='/Imgs/addIcon.png'></image>
+        <text>搞笑</text>
+      </view>
+      <view class='addItem'>
+        <image src='/Imgs/addIcon.png'></image>
+        <text>数码</text>
+      </view>
+      <view class='addItem'>
+        <image src='/Imgs/addIcon.png'></image>
+        <text>美食</text>
+      </view>
+      <view class='addItem'>
+        <image src='/Imgs/addIcon.png'></image>
+        <text>养生</text>
+      </view>
+      <view class='addItem'>
+        <image src='/Imgs/addIcon.png'></image>
+        <text>电影</text>
+      </view>
+      <view class='addItem'>
+        <image src='/Imgs/addIcon.png'></image>
+        <text>手机</text>
+      </view>
+    </view>
+  </view>
+</view>

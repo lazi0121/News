@@ -1,0 +1,74 @@
+.tagTitle label{
+  margin-left: 21rpx;
+  font-size: 36rpx;
+  color: #000;
+  vertical-align: baseline;
+}
+.tagTitle text{
+  margin-left: 13rpx;
+  position: relative;
+  bottom: -2rpx;
+  font-size: 26rpx;
+  color: #999;
+  vertical-align: baseline;
+}
+.tagBox{
+  padding: 0 11rpx;
+}
+.tagItem{
+  display: inline-block;
+  margin:11rpx 10rpx;
+  position: relative;
+  width: 162rpx;
+  height: 78rpx;
+  border-radius: 4rpx;
+  background: #f6f6f6;
+}
+.tagItem text{
+  height: 100%;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -webkit-align-items: center;
+  font-size: 28rpx;
+  color: #000;
+}
+.tagItem image{
+  position: absolute;
+  top: -11rpx;
+  right: -11rpx;
+  width: 43rpx;
+  height: 43rpx;
+}
+.tagItemF{
+  width: 162rpx;
+  height: 78rpx;
+  border-radius: 4rpx;
+  background: #f7f7f7;
+}
+.tagItemF text{
+  color: #999;
+}
+.addItem{
+  display: inline-block;
+  margin:11rpx 10rpx;
+  position: relative;
+  width: 162rpx;
+  height: 78rpx;
+  border-radius: 4rpx;
+  background: #f6f6f6;
+  text-align: center;
+}
+.addItem image{
+  margin-right: 13rpx;
+  width: 30rpx;
+  height: 30rpx;
+  vertical-align: middle;
+}
+.addItem text{
+  font-size: 28rpx;
+  color: #000;
+  vertical-align: middle;
+}

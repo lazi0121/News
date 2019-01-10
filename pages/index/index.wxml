@@ -1,0 +1,45 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='header'>
+    <view class='searchBtn' bindtap='ToSearch'><image src='/Imgs/searIcon.png'></image></view>
+    <view class='list'>
+      <scroll-view class="scroll-view" scroll-x="true" bindscroll='scroll'>
+        <view class='scroll-view-item'>推荐</view>
+        <view class='scroll-view-item'>视频</view>
+        <view class='scroll-view-item'>热点</view>
+        <view class='scroll-view-item'>本地</view>
+        <view class='scroll-view-item'>科技</view>
+        <view class='scroll-view-item'>游戏</view>
+        <view class='scroll-view-item'>娱乐</view>
+        <view class='scroll-view-item'>社会</view>
+        <view class='scroll-view-item'>汽车</view>
+        <view class='scroll-view-item'>美文</view>
+        <view class='scroll-view-item'>体育</view>
+        <view class='scroll-view-item'>财经</view>
+        <view class='scroll-view-item'>军事</view>
+        <view class='scroll-view-item'>国际</view>
+        <view class='scroll-view-item'>时尚</view>
+      </scroll-view>
+      <label></label>
+    </view>
+    <view class='btnBox'>
+      <view class='addBtn' bindtap='ChangeTag'><image src='/Imgs/addIcon.png'></image></view>
+      <view class='myBtn'><image src='/Imgs/woIcon.png'></image></view>
+    </view>
+  </view>
+  <view class='content'>
+    <swiper
+      indicator-dots="{{indicatorDots}}"
+      autoplay="{{autoplay}}"
+      interval="{{interval}}"
+      duration="{{duration}}"
+      class='swiper'
+    >
+      <block wx:for="{{className}}">
+        <swiper-item class="slide-image {{item}}" width="355" height="150">
+          <view bindtap='ToDetial'>dasdad</view>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+</view>
