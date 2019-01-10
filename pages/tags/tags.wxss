@@ -1,3 +1,6 @@
+.tagTitle{
+  padding:60rpx 0 25rpx;
+}
 .tagTitle label{
   margin-left: 21rpx;
   font-size: 36rpx;
@@ -52,23 +55,25 @@
   color: #999;
 }
 .addItem{
-  display: inline-block;
+  display: inline-flex;
+  display: -webkit-inline-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: center;
+  -webkit-justify-content: center;
   margin:11rpx 10rpx;
   position: relative;
   width: 162rpx;
   height: 78rpx;
   border-radius: 4rpx;
   background: #f6f6f6;
-  text-align: center;
 }
 .addItem image{
   margin-right: 13rpx;
   width: 30rpx;
   height: 30rpx;
-  vertical-align: middle;
 }
 .addItem text{
   font-size: 28rpx;
   color: #000;
-  vertical-align: middle;
 }

@@ -47,7 +47,7 @@
       <label>其他频道</label>
       <text>点击添加频道</text>
     </view>
-    <view>
+    <view class='tagBox'>
       <view class='addItem'>
         <image src='/Imgs/addIcon.png'></image>
         <text>历史</text>

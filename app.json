@@ -1,10 +1,11 @@
 {
   "pages":[
+    "pages/my/my",
+    "pages/tags/tags",
     "pages/index/index",
     "pages/logs/logs",
     "pages/article/article",
-    "pages/search/search",
-    "pages/tags/tags"
+    "pages/search/search"
   ],
   "window":{
     "backgroundTextStyle":"light",
