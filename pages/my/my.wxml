@@ -1,20 +1,22 @@
-<view class='my'>
-  <view class='inforBox'>
-    <image src=''></image>
-    <text>名称</text>
-  </view>
-  <view>
-    <view>
-      <text>0</text>
-      <label>关注</label>
+<view class='container'>
+  <view class='my'>
+    <view class='inforBox'>
+      <image src='/Imgs/txb.png'></image>
+      <text>名称</text>
     </view>
-    <view>
-      <text>0</text>
-      <label>粉丝</label>
+    <view class='numBox'>
+      <view>
+        <text>0</text>
+        <text>关注</text>
+      </view>
+      <view>
+        <text>0</text>
+        <text>粉丝</text>
+      </view>
     </view>
   </view>
-</view>
-<view class='star'>
-  <text>我的收藏</text>
-  <label class='none'>暂无收藏</label>
+  <view class='starBox'>
+    <text class='title'>我的收藏</text>
+    <label class='none'>暂无收藏</label>
+  </view>
 </view>

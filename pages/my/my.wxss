@@ -1,0 +1,61 @@
+page{
+  background: #f6f6f6;
+}
+.inforBox{
+  height: 240rpx;
+  background: #999;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+}
+.inforBox image{
+  margin-left: 50rpx;
+  width: 134rpx;
+  height: 134rpx;
+  border-radius: 134rpx;
+}
+.inforBox text{
+  margin-left: 42rpx;
+  font-size: 30rpx;
+  color: #fff;
+}
+.numBox{
+  display: flex;
+  display: -webkit-flex;
+  background: #fff;
+  font-size: 24rpx;
+  color: #000;
+}
+.numBox> view{
+  display: inline-flex;
+  display: -webkit-inline-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+  flex-direction: column;
+  width:50%;
+  height: 106rpx;
+  border-bottom: 1px solid #dcdcdc;
+}
+/*=================================我的收藏====================================*/
+.starBox{
+  margin-top: 30rpx;
+  height: 180rpx;
+  background: #fff;
+}
+.starBox .title{
+  padding-top: 20rpx;
+  display: block;
+  padding-left: 41rpx;
+  font-size: 28rpx;
+  color: #333;
+}
+.starBox .none{
+  margin-top: 40rpx;
+  display: block;
+  text-align: center;
+  font-size: 26rpx;
+  color: #999;
+}
